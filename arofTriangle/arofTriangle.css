@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@300&display=swap');
+
+body{
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+}
+
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+/* .link-primary {
+    background-color: rgb(228, 32, 91);
+    border-radius: 0.5rem;
+    color: white;
+}
+
+.link-secondary {
+    color: rgb(228, 32, 91);
+    border-radius: 0.5rem;
+    border: 1px solid rgb(228, 32, 91);
+} */
+
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+.navigation {
+    background-color: rgb(228, 32, 91);
+    color: black;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+    position: fixed;
+    top: 0;
+    width: 97.5%;
+    right: 0;
+}
+
+.navigation .nav-hmm {
+    font-weight: bold;
+    
+}
+
+.navigation .nav-pills {
+    text-align: right;
+}
+
+.navigation .link {
+    color:black;
+}
+
+.navigation .link-active {
+    font-weight: bold;
+}
+
+.navigation .cont2 {
+    border-bottom-left-radius: none;
+    margin: 2rem;
+}
+
+
+.menu{
+    /* background-color: rgb(228, 32, 91); */
+    color: black;
+    border-radius: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    margin-top: 10rem;
+    background-size: 300px 100px;
+}
+
+.menu .link{
+    color: black;
+    background-color: rgb(180, 2, 55);
+}
+
+.menu .link:hover {
+    color: rgb(180, 2, 55);
+    border-style: solid;
+    background-color:white;
+    border-color: rgb(180, 2, 55);
+    
+}
+
+h2{
+    text-align: center;
+}
+.main{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    font-size: large;
+}
+
+.cal-btn{
+    font-size: larger;
+}
+
+.cal-btn:hover{
+    color: rgb(180, 2, 55);
+    border-style: solid;
+    background-color:white;
+    border-color: rgb(180, 2, 55);
+}
+
+.footer {
+    margin-top: 3.5%;
+    background-color: rgb(228, 32, 91);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: black;
+    border-top-right-radius: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 97.5%;
+    left: 0;
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
+}
+
+.footer .link {
+    color: black;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}
