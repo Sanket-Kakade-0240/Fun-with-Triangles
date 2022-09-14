@@ -106,7 +106,7 @@ h2{
 }
 
 .footer {
-    margin-top: 3.5%;
+    /* margin-top: 3.5%; */
     background-color: rgb(228, 32, 91);
     padding: 1rem 1rem;
     text-align: center;
