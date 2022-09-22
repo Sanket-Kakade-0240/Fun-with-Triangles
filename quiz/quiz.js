@@ -2,7 +2,7 @@ var quizForm = document.querySelector(".quiz-form");
 var btnSubmit = document.querySelector("#btn-submit");
 var opTxt = document.querySelector("#output-txt");
 
-var correctAns = ["90°","right angled"];
+var correctAns = ["90°","right angled","Equilateral","Reflex angle","180°"];
 
 function givenAnsScore() {
     var score = 0;
