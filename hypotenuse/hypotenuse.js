@@ -8,9 +8,10 @@ function calcySqrSum(a,b) {
 } 
 
 function calcyHypo() {
-    if (sideIp.value>0 && sideIp.value !="") {
-        var sumSq = calcySqrSum(Number(sideIp[0].value),Number(sideIp[1].value));
-        var hypoLength = Math.sqrt(sumSq);
+    var sumSq = calcySqrSum(Number(sideIp[0].value),Number(sideIp[1].value));
+    var hypoLength = Math.sqrt(sumSq);
+    if (sideIp[0].value>0 && sideIp[1].value>0) {
+        
         opTxt.innerText = "Hypotenuse of this triangle is " + hypoLength;
     } else {
         opTxt.innerText = "Given input side should be greater than zero.";
